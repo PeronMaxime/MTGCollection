@@ -3,7 +3,7 @@ $(function() {
         url: 'https://api.scryfall.com/cards/collection',
         method: 'POST',
         contentType : 'application/json',
-        headers: {Origin: ''},
+        headers: {Origin: 'https://peronmaxime.github.io/MTGCollection/'},
         data: {
             "identifiers": [
                 {
